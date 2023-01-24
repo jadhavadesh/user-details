@@ -20,6 +20,11 @@ const Users = () => {
           paddingTop: "50px",
         }}
       >
+        <Grid sx={{ marginRight: "10px" }}>
+          <Button variant="contained" onClick={() => navigate("/")}>
+            Back
+          </Button>
+        </Grid>
         <Card sx={{ maxWidth: 345 }}>
           <CardActionArea>
             <CardMedia
