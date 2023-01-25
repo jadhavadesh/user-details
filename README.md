@@ -4,7 +4,34 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+
+### Features and function
+
+### `1. Register user`
+Note: It only allow predefined users in reqres list api to register user, else it throws error. (This issue is from reqres api).
+
+### `2. Login User`
+Note: It login only register users with correct email id ,but it can take any password to login . (This issue is from reqres api).
+
+### ` 3. Home page `
+It only accessible for authenticated user.
+
+### ` 4. Logout `
+You can logout user and it will go to the login page.
+
+### ` 5. Users Details `
+You cango to the user Details page by clicking on row of that reacord from table.
+
+### ` 6 . Back `
+You can go back to the main page.
+
+### ` 7. Validations for all form fields`
+
 In the project directory, you can run:
+
+### `npm install`
+
+Installs all dependencies which is used in the project.
 
 ### `npm start`
 
